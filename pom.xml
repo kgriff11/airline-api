@@ -10,11 +10,13 @@
 	</parent>
 	<groupId>com.vanguard</groupId>
 	<artifactId>airline-api</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>airline-api</name>
 	<description>Airline-api project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
+		<start-class>com.vanguard.airlineapi.AirlineApiApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
